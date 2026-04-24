@@ -10,7 +10,7 @@ Bu gizlilik politikası, Dossier uygulamasının ("Uygulama") kullanıcı verile
 Uygulama sorumlusu (veri denetleyicisi):
 
 - **Geliştirici:** Özgür Tuna Yavuz
-- **E-posta:** markus.sales@mdpgroup.com
+- **E-posta:** ozgurtuna111@hotmail.com
 
 Gizlilikle ilgili tüm sorularınız için yukarıdaki adresten bize ulaşabilirsiniz.
 
@@ -66,7 +66,7 @@ Kullanıcı olarak aşağıdaki haklara sahipsiniz:
 - **Erişim hakkı:** Uygulama içinden tüm verilerinize doğrudan erişebilirsiniz.
 - **Düzeltme hakkı:** Verilerinizi uygulama içinde güncelleyebilirsiniz.
 - **Silme hakkı:** Ayarlar → Tehlikeli Bölge → Hesabımı Sil yolunu takip ederek hesabınızı ve tüm verilerinizi kalıcı olarak silebilirsiniz.
-- **İtiraz hakkı:** Veri işleme faaliyetlerine itiraz etmek için markus.sales@mdpgroup.com adresine yazabilirsiniz.
+- **İtiraz hakkı:** Veri işleme faaliyetlerine itiraz etmek için ozgurtuna111@hotmail.com adresine yazabilirsiniz.
 
 Bu haklarınızı kullanmak için uygulama dışından başvurmak istiyorsanız 30 gün içinde yanıt alırsınız.
 
@@ -94,4 +94,4 @@ Veriler Supabase altyapısında (Frankfurt, Almanya — AB sınırları içinde)
 
 Herhangi bir gizlilik sorunuz veya hak talebiniz için:
 
-**E-posta:** markus.sales@mdpgroup.com
+**E-posta:** ozgurtuna111@hotmail.com

@@ -14,7 +14,7 @@ Dossier, satış ekiplerinin müşteri, kontak, lisans, PoC ve not gibi iş veri
 - Hesap açarken verdiğiniz bilgilerin doğru olmasından siz sorumlusunuz.
 - Parolanızı gizli tutmak sizin sorumluluğunuzdadır.
 - Hesabınızdan yapılan tüm işlemlerden siz sorumlusunuz.
-- Hesabınızın yetkisiz kullanıldığını fark ederseniz derhal markus.sales@mdpgroup.com adresine bildirin.
+- Hesabınızın yetkisiz kullanıldığını fark ederseniz derhal ozgurtuna111@hotmail.com adresine bildirin.
 
 ## 3. Kabul Edilebilir Kullanım
 
@@ -69,4 +69,4 @@ Bu şartlar zaman zaman güncellenebilir. Önemli değişikliklerde uygulama iç
 
 Kullanım şartlarıyla ilgili her türlü soru için:
 
-**E-posta:** markus.sales@mdpgroup.com
+**E-posta:** ozgurtuna111@hotmail.com

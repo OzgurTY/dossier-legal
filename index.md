@@ -3,4 +3,4 @@
 - [Gizlilik Politikası](privacy)
 - [Kullanım Şartları](terms)
 
-İletişim: markus.sales@mdpgroup.com
+İletişim: ozgurtuna111@hotmail.com

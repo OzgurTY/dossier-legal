@@ -2,8 +2,8 @@
 
 Dossier iOS uygulaması için Gizlilik Politikası ve Kullanım Şartları.
 
-- [Gizlilik Politikası](https://ozguryavuz.github.io/dossier-legal/privacy) — değiştir: privacy.md
-- [Kullanım Şartları](https://ozguryavuz.github.io/dossier-legal/terms) — değiştir: terms.md
+- [Gizlilik Politikası](https://ozgurty.github.io/dossier-legal/privacy) — değiştir: privacy.md
+- [Kullanım Şartları](https://ozgurty.github.io/dossier-legal/terms) — değiştir: terms.md
 
 ## Güncelleme
 
