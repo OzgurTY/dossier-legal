@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dossier — Yasal Dokümanlar</title>
+<meta name="description" content="Dossier mobil uygulamasının Gizlilik Politikası ve Kullanım Şartları.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e1116;
+    --muted:#5b6571;
+    --line:#e6e8eb;
+    --bg:#ffffff;
+    --accent:#1f3b8b;
+    --soft:#f4f5f7;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  .container{
+    max-width:720px;
+    margin:0 auto;
+    padding:64px 24px;
+  }
+  header.brand{
+    border-bottom:1px solid var(--line);
+    padding-bottom:24px;
+    margin-bottom:48px;
+  }
+  .logo{
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--accent);
+  }
+  h1{
+    font-size:32px;
+    font-weight:700;
+    margin:8px 0 16px;
+    letter-spacing:-0.02em;
+  }
+  .lead{
+    color:var(--muted);
+    font-size:17px;
+  }
+  .doc-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:grid;
+    gap:12px;
+  }
+  .doc-list li{
+    border:1px solid var(--line);
+    border-radius:8px;
+    overflow:hidden;
+    transition:border-color 0.15s;
+  }
+  .doc-list li:hover{
+    border-color:var(--accent);
+  }
+  .doc-list a{
+    display:block;
+    padding:20px 24px;
+    text-decoration:none;
+    color:var(--ink);
+  }
+  .doc-list a strong{
+    display:block;
+    font-size:17px;
+    font-weight:600;
+    margin-bottom:4px;
+  }
+  .doc-list a span{
+    color:var(--muted);
+    font-size:14px;
+  }
+  footer.contact{
+    margin-top:64px;
+    padding-top:24px;
+    border-top:1px solid var(--line);
+    color:var(--muted);
+    font-size:14px;
+  }
+  footer.contact a{
+    color:var(--accent);
+    text-decoration:none;
+  }
+  footer.contact a:hover{
+    text-decoration:underline;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header class="brand">
+    <div class="logo">Dossier</div>
+    <h1>Yasal Dokümanlar</h1>
+    <p class="lead">Dossier mobil uygulamasının kullanımına ilişkin gizlilik ve sözleşme metinleri.</p>
+  </header>
+
+  <ul class="doc-list">
+    <li>
+      <a href="privacy.html">
+        <strong>Gizlilik Politikası</strong>
+        <span>Kişisel verilerin toplanması, işlenmesi ve aktarımına ilişkin esaslar.</span>
+      </a>
+    </li>
+    <li>
+      <a href="terms.html">
+        <strong>Kullanım Şartları</strong>
+        <span>Uygulamanın kullanımına ilişkin sözleşmesel hükümler ve sorumluluklar.</span>
+      </a>
+    </li>
+  </ul>
+
+  <footer class="contact">
+    <p><strong>İletişim</strong><br>
+    E-posta: <a href="mailto:ozgurtuna111@hotmail.com">ozgurtuna111@hotmail.com</a></p>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gizlilik Politikası — Dossier</title>
+<meta name="description" content="Dossier mobil uygulamasının Gizlilik Politikası.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e1116;
+    --muted:#5b6571;
+    --line:#e6e8eb;
+    --bg:#ffffff;
+    --accent:#1f3b8b;
+    --soft:#f4f5f7;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  .container{
+    max-width:720px;
+    margin:0 auto;
+    padding:64px 24px;
+  }
+  .topbar{
+    margin-bottom:32px;
+    font-size:13px;
+  }
+  .topbar a{
+    color:var(--muted);
+    text-decoration:none;
+  }
+  .topbar a:hover{ color:var(--accent); }
+  .doc-header{
+    border-bottom:1px solid var(--line);
+    padding-bottom:24px;
+    margin-bottom:48px;
+  }
+  .logo{
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--accent);
+  }
+  h1{
+    font-size:32px;
+    font-weight:700;
+    margin:8px 0 16px;
+    letter-spacing:-0.02em;
+  }
+  .meta{
+    color:var(--muted);
+    font-size:14px;
+    margin:0;
+  }
+  .meta span{ display:inline-block; margin-right:18px; }
+  h2{
+    font-size:20px;
+    font-weight:600;
+    margin:48px 0 12px;
+    padding-top:8px;
+    letter-spacing:-0.01em;
+  }
+  h3{
+    font-size:16px;
+    font-weight:600;
+    margin:28px 0 8px;
+    color:var(--ink);
+  }
+  p{
+    margin:0 0 16px;
+    color:var(--ink);
+  }
+  ul,ol{
+    margin:0 0 16px;
+    padding-left:24px;
+  }
+  li{ margin-bottom:6px; }
+  strong{ font-weight:600; }
+  a{ color:var(--accent); text-decoration:underline; }
+  a:hover{ text-decoration:none; }
+  .clause-num{
+    color:var(--muted);
+    font-weight:500;
+    margin-right:6px;
+  }
+  .definitions{
+    background:var(--soft);
+    border-radius:8px;
+    padding:20px 24px;
+    margin:24px 0;
+  }
+  .definitions p{ margin-bottom:10px; }
+  .definitions p:last-child{ margin-bottom:0; }
+  .toc{
+    background:var(--soft);
+    border-radius:8px;
+    padding:20px 24px;
+    margin-bottom:48px;
+  }
+  .toc strong{ display:block; margin-bottom:10px; font-size:13px; text-transform:uppercase; letter-spacing:0.08em; color:var(--muted); }
+  .toc ol{
+    margin:0;
+    padding-left:20px;
+    font-size:14px;
+    columns:2;
+    column-gap:24px;
+  }
+  .toc li{ margin-bottom:4px; break-inside:avoid; }
+  .toc a{ color:var(--ink); text-decoration:none; }
+  .toc a:hover{ color:var(--accent); }
+  .footer-note{
+    margin-top:64px;
+    padding-top:24px;
+    border-top:1px solid var(--line);
+    color:var(--muted);
+    font-size:13px;
+  }
+  table{
+    width:100%;
+    border-collapse:collapse;
+    margin:20px 0;
+    font-size:14px;
+  }
+  th,td{
+    border-bottom:1px solid var(--line);
+    padding:12px 8px;
+    text-align:left;
+    vertical-align:top;
+  }
+  th{
+    font-weight:600;
+    color:var(--muted);
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+  }
+  @media (max-width:560px){
+    .toc ol{ columns:1; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="topbar"><a href="index.html">← Yasal Dokümanlar</a></div>
+
+  <header class="doc-header">
+    <div class="logo">Dossier</div>
+    <h1>Gizlilik Politikası</h1>
+    <p class="meta">
+      <span><strong>Yürürlük tarihi:</strong> 02 Mayıs 2026</span>
+      <span><strong>Son güncelleme:</strong> 02 Mayıs 2026</span>
+    </p>
+  </header>
+
+  <p>İşbu Gizlilik Politikası ("<strong>Politika</strong>"), Dossier mobil uygulamasının ("<strong>Uygulama</strong>") veri sorumlusu sıfatıyla işlettiği kişisel veri işleme faaliyetlerini, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("<strong>KVKK</strong>"), Avrupa Birliği Genel Veri Koruma Tüzüğü ("<strong>GDPR</strong>") ve ilgili sair mevzuat çerçevesinde açıklamak amacıyla hazırlanmıştır. Uygulamayı kullanmak, işbu Politika'nın koşullarını okuduğunuzu, anladığınızı ve kabul ettiğinizi gösterir.</p>
+
+  <div class="toc">
+    <strong>İçindekiler</strong>
+    <ol>
+      <li><a href="#m1">Tanımlar</a></li>
+      <li><a href="#m2">Veri Sorumlusu</a></li>
+      <li><a href="#m3">İşlenen Kişisel Veri Kategorileri</a></li>
+      <li><a href="#m4">Sesli Not ve Otomatik Transkripsiyon</a></li>
+      <li><a href="#m5">Kişisel Verilerin İşlenme Amaçları</a></li>
+      <li><a href="#m6">Hukuki Sebepler</a></li>
+      <li><a href="#m7">Veri İşleyenler ve Aktarım</a></li>
+      <li><a href="#m8">Yurt Dışına Aktarım</a></li>
+      <li><a href="#m9">Saklama Süreleri</a></li>
+      <li><a href="#m10">Veri Sahibinin Hakları</a></li>
+      <li><a href="#m11">Veri Güvenliği</a></li>
+      <li><a href="#m12">Çocukların Gizliliği</a></li>
+      <li><a href="#m13">Otomatik Karar Verme</a></li>
+      <li><a href="#m14">Politika Değişiklikleri</a></li>
+      <li><a href="#m15">İletişim</a></li>
+    </ol>
+  </div>
+
+  <h2 id="m1"><span class="clause-num">1.</span> Tanımlar</h2>
+  <div class="definitions">
+    <p><strong>Kullanıcı:</strong> Uygulamayı indiren ve kullanan gerçek kişi.</p>
+    <p><strong>Workspace:</strong> Birden fazla Kullanıcı'nın aynı veri kümesini paylaştığı ekip alanı.</p>
+    <p><strong>Kişisel Veri:</strong> Kimliği belirli veya belirlenebilir gerçek kişiye ilişkin her türlü bilgi.</p>
+    <p><strong>İçerik:</strong> Kullanıcı tarafından Uygulama'ya girilen ya da yüklenen müşteri kayıtları, notlar, ses kayıtları ve sair veriler.</p>
+    <p><strong>Veri İşleyen:</strong> Veri sorumlusunun verdiği yetkiye dayanarak veri sorumlusu adına kişisel veri işleyen üçüncü taraf hizmet sağlayıcı.</p>
+  </div>
+
+  <h2 id="m2"><span class="clause-num">2.</span> Veri Sorumlusu</h2>
+  <p>İşbu Politika kapsamında Kullanıcı'nın kişisel verilerini işleyen veri sorumlusu aşağıdaki şekilde belirtilmiştir:</p>
+  <ul>
+    <li><strong>Veri Sorumlusu:</strong> Özgür Tuna Yavuz</li>
+    <li><strong>İletişim adresi:</strong> <a href="mailto:ozgurtuna111@hotmail.com">ozgurtuna111@hotmail.com</a></li>
+  </ul>
+
+  <h2 id="m3"><span class="clause-num">3.</span> İşlenen Kişisel Veri Kategorileri</h2>
+  <p>Uygulama kapsamında, hizmetin sağlanabilmesi amacıyla aşağıdaki kategorilerde kişisel veriler işlenmektedir:</p>
+
+  <h3>3.1. Kimlik ve İletişim Verileri</h3>
+  <ul>
+    <li>Ad ve soyadı</li>
+    <li>Elektronik posta adresi</li>
+    <li>Hesap parolası (geri çevrilemez şekilde özetlenmiş — hash — formatında saklanır; veri sorumlusu dahil hiçbir taraf parolanın açık metnine erişemez)</li>
+  </ul>
+
+  <h3>3.2. Kullanıcı İçeriği</h3>
+  <ul>
+    <li>Müşteri kayıtları (şirket adı, sektör, lokasyon, irtibat bilgileri)</li>
+    <li>Kontak verileri (ad, görev, telefon, e-posta)</li>
+    <li>Lisans, PoC, süreç ve not kayıtları</li>
+    <li>Ses kayıtları ve bunların metin transkriptleri (bkz. Madde 4)</li>
+    <li>Yapay zekâ tarafından üretilen özetler ve aksiyon önerileri</li>
+  </ul>
+
+  <h3>3.3. İşlem ve Denetim Verileri</h3>
+  <ul>
+    <li>Kayıtların oluşturulma ve güncellenme tarihleri</li>
+    <li>Workspace içi aktivite günlüğü (hangi kullanıcı, hangi kaydı, ne zaman değiştirdi)</li>
+    <li>Cihaz bazlı oturum belirteçleri (yalnızca cihaz Anahtar Zinciri'nde saklanır)</li>
+  </ul>
+
+  <p>Uygulama; reklam izleme, çapraz site izleme veya üçüncü taraf analitik araçları ile <strong>kullanıcı davranışı izlemesi yapmaz</strong> ve IDFA / reklam kimliği gibi tanımlayıcılara erişmez.</p>
+
+  <h2 id="m4"><span class="clause-num">4.</span> Sesli Not ve Otomatik Transkripsiyon</h2>
+  <p>Kullanıcı, Uygulama içinden müşteri görüşmelerine ilişkin <strong>sesli not</strong> oluşturma seçeneğini kullanabilir. Bu özellik kapsamında işlenen verilerin niteliği ve aktarım koşulları aşağıda ayrıntılı olarak açıklanmıştır:</p>
+
+  <h3>4.1. Toplanan Veriler</h3>
+  <ul>
+    <li>Kullanıcı tarafından kaydedilen ses dosyaları (AAC m4a formatında, sıkıştırılmış)</li>
+    <li>Bu kayıtlardan elde edilen yazılı transkript</li>
+    <li>Ses içeriğinden otomatik olarak çıkarılan özet ve aksiyon önerileri</li>
+  </ul>
+
+  <h3>4.2. Saklama Yeri</h3>
+  <p>Ses dosyaları, Veri İşleyen sıfatıyla hareket eden Supabase Inc. ("<strong>Supabase</strong>") tarafından işletilen, AB sınırları içerisinde (Frankfurt, Almanya) bulunan sunucularda; özel erişim kuralları (Row Level Security ve Storage RLS politikaları) altında saklanır. Kullanıcı'nın workspace'inde yetkili olmayan hiçbir üçüncü kişi ses dosyalarına erişim sağlayamaz.</p>
+
+  <h3>4.3. Üçüncü Taraf Hizmete Aktarım — Google Gemini API</h3>
+  <p>Otomatik transkripsiyon, özetleme ve aksiyon çıkarımı işlevlerinin yerine getirilebilmesi için ses dosyaları, geçici süreli ve imzalı bağlantılar (signed URL) aracılığıyla Google LLC tarafından sağlanan <strong>Gemini API</strong>'ye iletilir. Bu aktarım yalnızca işlemin gerçekleştirilmesi süresince yapılır ve Veri Sorumlusu, Google LLC'nin Kullanıcı verilerine kalıcı erişim sağlamadığını taahhüt edemez; ancak hizmetin Google ile ilgili kullanım koşulları dahilinde yürütüldüğünü beyan eder.</p>
+  <p>Gemini API'nin <strong>ücretsiz katmanı</strong> kullanıldığı süre boyunca, Google LLC'nin sağlanan içeriği kendi yapay zekâ modellerinin geliştirilmesi ve iyileştirilmesi amacıyla kullanma hakkını saklı tuttuğu Kullanıcı'nın bilgisi dahilindedir. Bu husus, Google AI Studio kullanım koşullarında düzenlenmiş olup ayrıntılı bilgi için Google'ın gizlilik politikasına başvurulması gerekmektedir.</p>
+  <p>Kullanıcı, sesli not özelliğini kullanmakla, ses kayıtlarının yukarıda belirtilen koşullarla Google LLC'ye aktarılmasına açık rıza verir. Bu rızasını dilediği zaman, sesli not özelliğini kullanmamak suretiyle geri alabilir; mevcut ses kayıtlarının silinmesini talep etmek için <a href="mailto:ozgurtuna111@hotmail.com">ozgurtuna111@hotmail.com</a> adresine başvurabilir.</p>
+
+  <h3>4.4. Üçüncü Kişilerin Sesinin Kaydedilmesi</h3>
+  <p>Kullanıcı, üçüncü kişilerin sesinin kaydedilmesi durumunda, ilgili kişilerden açık rıza almakla yükümlüdür. Bu yükümlülüğün yerine getirilmemesinden doğacak her türlü hukuki sorumluluk münhasıran Kullanıcı'ya aittir. Veri Sorumlusu, Kullanıcı'nın bu yükümlülüğünü ihlali sebebiyle Veri Sorumlusu nezdinde doğacak her türlü zararı Kullanıcı'dan tazmin etme hakkını saklı tutar.</p>
+
+  <h2 id="m5"><span class="clause-num">5.</span> Kişisel Verilerin İşlenme Amaçları</h2>
+  <p>Kişisel veriler aşağıdaki amaçlarla, amaçla bağlantılı, sınırlı ve ölçülü olarak işlenir:</p>
+  <ul>
+    <li>Hizmetin sunulması ve sözleşmenin ifası</li>
+    <li>Kullanıcı'nın kimliğinin doğrulanması ve hesap güvenliğinin sağlanması</li>
+    <li>Workspace içerisindeki yetkili Kullanıcılar arasında veri paylaşımının ve eş zamanlı görünürlüğün sağlanması</li>
+    <li>Sesli notların metne dönüştürülmesi, özetlenmesi ve aksiyonların çıkarılması</li>
+    <li>Bildirim ve hatırlatma hizmetlerinin sunulması</li>
+    <li>Uygulama performansının izlenmesi, hata analizi ve iyileştirme</li>
+    <li>Hukuki yükümlülüklerin yerine getirilmesi ve mevzuat kapsamındaki taleplere yanıt verilmesi</li>
+  </ul>
+
+  <h2 id="m6"><span class="clause-num">6.</span> Hukuki Sebepler</h2>
+  <p>Kişisel veriler, KVKK md. 5/2 ve GDPR md. 6 kapsamında aşağıdaki hukuki sebeplere dayanılarak işlenmektedir:</p>
+  <ul>
+    <li>Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması</li>
+    <li>Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi</li>
+    <li>Sesli not kaydı ve aktarımı bakımından Kullanıcı'nın açık rızası</li>
+    <li>Veri sorumlusunun meşru menfaatleri (uygulama güvenliği ve hizmet kalitesi)</li>
+  </ul>
+
+  <h2 id="m7"><span class="clause-num">7.</span> Veri İşleyenler ve Aktarım</h2>
+  <p>Veri Sorumlusu, hizmetin sunulabilmesi için aşağıdaki Veri İşleyenler ile çalışmaktadır:</p>
+
+  <table>
+    <tr><th>Hizmet</th><th>Veri İşleyen</th><th>Amaç</th></tr>
+    <tr>
+      <td>Kimlik doğrulama, veritabanı, gerçek zamanlı senkronizasyon, dosya depolama</td>
+      <td>Supabase Inc. (Delaware, ABD; veri merkezi: Frankfurt, Almanya)</td>
+      <td>Hesap yönetimi, kullanıcı içeriğinin saklanması, ses dosyalarının barındırılması</td>
+    </tr>
+    <tr>
+      <td>Otomatik transkripsiyon, özetleme ve aksiyon çıkarımı</td>
+      <td>Google LLC (Mountain View, ABD)</td>
+      <td>Ses dosyalarının yapay zekâ ile metne dönüştürülmesi ve içerik analizi</td>
+    </tr>
+    <tr>
+      <td>Bildirim altyapısı</td>
+      <td>Apple Inc. (Cupertino, ABD)</td>
+      <td>Push bildirim gönderimi (yalnızca cihaz tabanlı, içerik şifrelenmiş)</td>
+    </tr>
+  </table>
+
+  <p>Yukarıda belirtilenler haricinde, kişisel veriler hiçbir üçüncü kişiyle paylaşılmaz, satılmaz veya kiralanmaz. Yetkili kamu kurum ve kuruluşlarının yasal mevzuat kapsamındaki talepleri saklıdır.</p>
+
+  <h2 id="m8"><span class="clause-num">8.</span> Yurt Dışına Aktarım</h2>
+  <p>Kişisel veriler, hizmetin sunulması amacıyla AB ülkesi olan Almanya'da (Frankfurt) bulunan Supabase sunucularında saklanır. Sesli not özelliği kullanıldığında ses kayıtları, transkripsiyon süresince Google LLC altyapısına (ABD) aktarılır. Söz konusu aktarım, Kullanıcı'nın açık rızası kapsamında ve KVKK md. 9 ile GDPR md. 49 hükümleri uyarınca gerçekleştirilir.</p>
+
+  <h2 id="m9"><span class="clause-num">9.</span> Saklama Süreleri</h2>
+  <ul>
+    <li><strong>Hesap ve içerik verileri:</strong> Hesap aktif olduğu sürece saklanır.</li>
+    <li><strong>Yumuşak silme (soft delete):</strong> Kullanıcı tarafından silinen kayıtlar 30 (otuz) gün boyunca arşivde tutulur, ardından kalıcı olarak silinir.</li>
+    <li><strong>Hesabın kapatılması:</strong> Hesabın silinmesi halinde, hesaba ait tüm kişisel veriler ve içerik makul teknik süre içerisinde geri dönüşü mümkün olmayacak şekilde silinir.</li>
+    <li><strong>Aktivite günlüğü:</strong> Workspace silinmediği sürece korunur; workspace silindiğinde aktivite günlüğü de silinir.</li>
+  </ul>
+
+  <h2 id="m10"><span class="clause-num">10.</span> Veri Sahibinin Hakları</h2>
+  <p>Kullanıcı, KVKK md. 11 ve GDPR md. 15-22 kapsamında aşağıdaki haklara sahiptir:</p>
+  <ul>
+    <li>Kişisel verilerinin işlenip işlenmediğini öğrenme</li>
+    <li>İşlenen kişisel verilerine erişim talep etme</li>
+    <li>Kişisel verilerinin düzeltilmesini ve eksikliklerin tamamlanmasını isteme</li>
+    <li>Kişisel verilerinin silinmesini veya yok edilmesini isteme</li>
+    <li>Kişisel verilerin işlenmesine itiraz etme</li>
+    <li>Otomatik işleme dayalı çıkarımlara itiraz etme</li>
+    <li>Veri taşınabilirliği talep etme</li>
+    <li>Verilerin hukuka aykırı olarak işlenmesi sebebiyle uğradığı zararın tazminini isteme</li>
+  </ul>
+  <p>Kullanıcı, bu haklarını Uygulama içerisinde sağlanan araçlar üzerinden (örneğin "Ayarlar → Tehlikeli Bölge → Hesabımı Sil") veya <a href="mailto:ozgurtuna111@hotmail.com">ozgurtuna111@hotmail.com</a> adresine yapacağı yazılı başvuru ile kullanabilir. Talepler, KVKK md. 13 uyarınca en geç 30 (otuz) gün içerisinde sonuçlandırılır.</p>
+
+  <h2 id="m11"><span class="clause-num">11.</span> Veri Güvenliği</h2>
+  <p>Veri Sorumlusu, kişisel verilerin hukuka aykırı erişimine, ifşasına, değiştirilmesine veya zarar görmesine karşı aşağıdaki teknik ve idari tedbirleri uygulamaktadır:</p>
+  <ul>
+    <li>Tüm veri iletişimi TLS 1.2 veya üzeri ile şifrelenir.</li>
+    <li>Parolalar bcrypt algoritması ile geri çevrilemez şekilde özetlenir.</li>
+    <li>Veritabanı seviyesinde Satır Düzeyi Güvenlik (Row Level Security) uygulanır; her Kullanıcı yalnızca üyesi olduğu workspace'in verilerine erişebilir.</li>
+    <li>Oturum belirteçleri (session token) cihazın güvenli alanında (iOS Keychain) saklanır.</li>
+    <li>Sunucu altyapısı bağımsız olarak SOC 2 Type II ve ISO 27001 sertifikalı bir hizmet sağlayıcı (Supabase) tarafından işletilmektedir.</li>
+    <li>Tüm yapay zekâ aktarımlarında imzalı bağlantılar (signed URL) kullanılır; bu bağlantılar ortalama bir saat içerisinde geçerliliğini yitirir.</li>
+  </ul>
+
+  <h2 id="m12"><span class="clause-num">12.</span> Çocukların Gizliliği</h2>
+  <p>Uygulama, 13 yaş altındaki çocuklara yönelik tasarlanmamıştır. Veri Sorumlusu, 13 yaşın altındaki kişilerden bilerek kişisel veri toplamaz. Veli veya vasinin bu yaş grubunda bir kullanıcının veri sağladığını fark etmesi halinde derhal Veri Sorumlusu ile irtibata geçmesi gerekmektedir; ilgili veriler tespit edilir edilmez silinecektir.</p>
+
+  <h2 id="m13"><span class="clause-num">13.</span> Otomatik Karar Verme</h2>
+  <p>Yapay zekâ destekli özetleme ve aksiyon çıkarımı, Kullanıcı'ya yardımcı olma amacıyla yapılan tavsiye niteliğinde işlemler olup, hukuki sonuç doğuran veya Kullanıcı'yı önemli ölçüde etkileyen otomatik kararlar alınmasını içermez. Tüm aksiyonlar Kullanıcı tarafından gözden geçirilebilir ve değiştirilebilir.</p>
+
+  <h2 id="m14"><span class="clause-num">14.</span> Politika Değişiklikleri</h2>
+  <p>İşbu Politika, mevzuat ve hizmet kapsamındaki gelişmelere bağlı olarak Veri Sorumlusu tarafından zaman zaman güncellenebilir. Esaslı nitelikteki değişiklikler, Uygulama içi bildirim veya elektronik posta yoluyla Kullanıcı'ya duyurulur. Politika'nın en güncel hâli her zaman bu sayfada erişilebilir olup, "Son güncelleme" tarihi belge başında belirtilmiştir.</p>
+
+  <h2 id="m15"><span class="clause-num">15.</span> İletişim</h2>
+  <p>Bu Politika veya kişisel verilerinizin işlenmesine ilişkin her türlü soru, talep ve şikayetinizi aşağıdaki iletişim adresine yöneltebilirsiniz:</p>
+  <p><strong>Veri Sorumlusu:</strong> Özgür Tuna Yavuz<br>
+  <strong>E-posta:</strong> <a href="mailto:ozgurtuna111@hotmail.com">ozgurtuna111@hotmail.com</a></p>
+
+  <div class="footer-note">
+    Bu doküman bilgilendirme amaçlıdır ve hukuki tavsiye yerine geçmez. Kişisel verilerinizin korunmasına ilişkin haklarınızın uygulanması konusunda tereddüt yaşamanız hâlinde Kişisel Verileri Koruma Kurumu'na (KVKK) başvurabilirsiniz.
+  </div>
+
+</div>
+</body>
+</html>

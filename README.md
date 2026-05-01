@@ -1,14 +1,22 @@
 # Dossier Legal
 
-Dossier iOS uygulaması için Gizlilik Politikası ve Kullanım Şartları.
+Dossier iOS uygulaması için Gizlilik Politikası ve Kullanım Şartları (HTML).
 
-- [Gizlilik Politikası](https://ozgurty.github.io/dossier-legal/privacy) — değiştir: privacy.md
-- [Kullanım Şartları](https://ozgurty.github.io/dossier-legal/terms) — değiştir: terms.md
+- [Yasal Dokümanlar Ana Sayfa](https://ozgurty.github.io/dossier-legal/) — `index.html`
+- [Gizlilik Politikası](https://ozgurty.github.io/dossier-legal/privacy.html) — `privacy.html`
+- [Kullanım Şartları](https://ozgurty.github.io/dossier-legal/terms.html) — `terms.html`
 
 ## Güncelleme
 
+Dosyaları doğrudan düzenle, sonra:
+
+```bash
+git add . && git commit -m "update: ..." && git push
 ```
-# Düzenledikten sonra:
-git add . && git commit -m "update: privacy" && git push
-# 1-2 dakika içinde yayında
-```
+
+GitHub Pages 1-2 dakika içinde yayında.
+
+## Not
+
+App Store Connect → App Information → Privacy Policy URL alanı `.html` uzantılı URL kullanmalı:
+`https://ozgurty.github.io/dossier-legal/privacy.html`
